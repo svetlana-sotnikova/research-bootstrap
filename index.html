@@ -84,66 +84,58 @@
   <div class="container">
     <h2>Группа</h2>
 
-    <div class="row">
-      <div class="col-md-10">
-        <div class="form-group">
-          <label for="pricelist-group"></label>
-          <input type="text" class="form-control" id="pricelist-group" value="Группа 1">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-md-10">
+            <div class="form-group">
+              <label for="pricelist-group">Группа</label>
+              <input type="text" class="form-control" id="pricelist-group" value="Группа 1">
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="form-group">
+              <label> </label>
+              <button type="button" class="btn btn-danger">Удалить</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8">
+            <div class="form-group">
+              <label for="pricelist-position">Позиция</label>
+              <input type="text" class="form-control" id="pricelist-position" value="Позиция 1">
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="form-group">
+              <label for="pricelist-price">Цена</label>
+              <input type="text" class="form-control" id="pricelist-price" value="300">
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <button type="button" class="btn btn-danger">Удалить</button>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-success">Добавить позицию</button>
+          </div>
         </div>
       </div>
-      <div class="col-md-2">
-        <button type="button" class="btn btn-default navbar-btn">Удалить</button>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <button type="button" class="btn btn-success">Добавить группу</button>
       </div>
     </div>
   </div>
-
-  <div class="container">
-    <div style="font-size: 20px; margin: 20px 0;">
-      Прайс-лист
-
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">Название</span>
-        <input type="text" class="form-control" placeholder="name" value="Салон красоты Облик" aria-describedby="basic-addon1">
-      </div>
-
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">Валюта</span>
-        <input type="text" class="form-control" placeholder="currency" value="₽" aria-describedby="basic-addon1">
-      </div>
-    </div>
-
-    <div style="font-size: 20px; margin: 20px 0;">Группы
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">Название группы</span>
-        <input type="text" class="form-control" placeholder="groups" value="" aria-describedby="basic-addon1">
-        <button type="button" class="btn btn-default navbar-btn">Добавить</button>
-        <button type="button" class="btn btn-default navbar-btn">Удалить</button>
-      </div>
-
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">Продукты</span>
-        <input type="text" class="form-control" placeholder="product" value="" aria-describedby="basic-addon1">
-        <button type="button" class="btn btn-default navbar-btn">Добавить</button>
-        <button type="button" class="btn btn-default navbar-btn">Удалить</button>
-      </div>
-    </div>
-
-    <div style="font-size: 20px; margin: 20px 0;">Продукты
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">Название продукта</span>
-        <input type="text" class="form-control" placeholder="name" value="" aria-describedby="basic-addon1">
-      </div>
-
-      <div class="input-group">
-        <span class="input-group-addon" id="basic-addon1">Цена</span>
-        <input type="text" class="form-control" placeholder="price" value="" aria-describedby="basic-addon1">
-      </div>
-    </div>
-
-    <button type="button" class="btn btn-default navbar-btn">Сохранить</button>
-    <button type="button" class="btn btn-default navbar-btn">Редактировать</button>
-  </div>
-
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
